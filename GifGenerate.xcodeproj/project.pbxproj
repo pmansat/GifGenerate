@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDE7408D1BEBF2B0001B2820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE7408C1BEBF2B0001B2820 /* AppDelegate.swift */; };
+		EDE7408F1BEBF2B0001B2820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE7408E1BEBF2B0001B2820 /* ViewController.swift */; };
+		EDE740921BEBF2B0001B2820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE740901BEBF2B0001B2820 /* Main.storyboard */; };
+		EDE740941BEBF2B0001B2820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE740931BEBF2B0001B2820 /* Assets.xcassets */; };
+		EDE740971BEBF2B0001B2820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE740951BEBF2B0001B2820 /* LaunchScreen.storyboard */; };
+		EDE740A21BEBF2B0001B2820 /* GifGenerateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE740A11BEBF2B0001B2820 /* GifGenerateTests.swift */; };
+		EDE740AD1BEBF2B0001B2820 /* GifGenerateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE740AC1BEBF2B0001B2820 /* GifGenerateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDE7409E1BEBF2B0001B2820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE740811BEBF2B0001B2820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE740881BEBF2B0001B2820;
+			remoteInfo = GifGenerate;
+		};
+		EDE740A91BEBF2B0001B2820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE740811BEBF2B0001B2820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE740881BEBF2B0001B2820;
+			remoteInfo = GifGenerate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDE740891BEBF2B0001B2820 /* GifGenerate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifGenerate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE7408C1BEBF2B0001B2820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDE7408E1BEBF2B0001B2820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDE740911BEBF2B0001B2820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDE740931BEBF2B0001B2820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDE740961BEBF2B0001B2820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDE740981BEBF2B0001B2820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE7409D1BEBF2B0001B2820 /* GifGenerateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifGenerateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE740A11BEBF2B0001B2820 /* GifGenerateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifGenerateTests.swift; sourceTree = "<group>"; };
+		EDE740A31BEBF2B0001B2820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE740A81BEBF2B0001B2820 /* GifGenerateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifGenerateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE740AC1BEBF2B0001B2820 /* GifGenerateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifGenerateUITests.swift; sourceTree = "<group>"; };
+		EDE740AE1BEBF2B0001B2820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDE740861BEBF2B0001B2820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE7409A1BEBF2B0001B2820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE740A51BEBF2B0001B2820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDE740801BEBF2B0001B2820 = {
+			isa = PBXGroup;
+			children = (
+				EDE7408B1BEBF2B0001B2820 /* GifGenerate */,
+				EDE740A01BEBF2B0001B2820 /* GifGenerateTests */,
+				EDE740AB1BEBF2B0001B2820 /* GifGenerateUITests */,
+				EDE7408A1BEBF2B0001B2820 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDE7408A1BEBF2B0001B2820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDE740891BEBF2B0001B2820 /* GifGenerate.app */,
+				EDE7409D1BEBF2B0001B2820 /* GifGenerateTests.xctest */,
+				EDE740A81BEBF2B0001B2820 /* GifGenerateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE7408B1BEBF2B0001B2820 /* GifGenerate */ = {
+			isa = PBXGroup;
+			children = (
+				EDE7408C1BEBF2B0001B2820 /* AppDelegate.swift */,
+				EDE7408E1BEBF2B0001B2820 /* ViewController.swift */,
+				EDE740901BEBF2B0001B2820 /* Main.storyboard */,
+				EDE740931BEBF2B0001B2820 /* Assets.xcassets */,
+				EDE740951BEBF2B0001B2820 /* LaunchScreen.storyboard */,
+				EDE740981BEBF2B0001B2820 /* Info.plist */,
+			);
+			path = GifGenerate;
+			sourceTree = "<group>";
+		};
+		EDE740A01BEBF2B0001B2820 /* GifGenerateTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE740A11BEBF2B0001B2820 /* GifGenerateTests.swift */,
+				EDE740A31BEBF2B0001B2820 /* Info.plist */,
+			);
+			path = GifGenerateTests;
+			sourceTree = "<group>";
+		};
+		EDE740AB1BEBF2B0001B2820 /* GifGenerateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE740AC1BEBF2B0001B2820 /* GifGenerateUITests.swift */,
+				EDE740AE1BEBF2B0001B2820 /* Info.plist */,
+			);
+			path = GifGenerateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDE740881BEBF2B0001B2820 /* GifGenerate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE740B11BEBF2B0001B2820 /* Build configuration list for PBXNativeTarget "GifGenerate" */;
+			buildPhases = (
+				EDE740851BEBF2B0001B2820 /* Sources */,
+				EDE740861BEBF2B0001B2820 /* Frameworks */,
+				EDE740871BEBF2B0001B2820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GifGenerate;
+			productName = GifGenerate;
+			productReference = EDE740891BEBF2B0001B2820 /* GifGenerate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDE7409C1BEBF2B0001B2820 /* GifGenerateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE740B41BEBF2B0001B2820 /* Build configuration list for PBXNativeTarget "GifGenerateTests" */;
+			buildPhases = (
+				EDE740991BEBF2B0001B2820 /* Sources */,
+				EDE7409A1BEBF2B0001B2820 /* Frameworks */,
+				EDE7409B1BEBF2B0001B2820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE7409F1BEBF2B0001B2820 /* PBXTargetDependency */,
+			);
+			name = GifGenerateTests;
+			productName = GifGenerateTests;
+			productReference = EDE7409D1BEBF2B0001B2820 /* GifGenerateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDE740A71BEBF2B0001B2820 /* GifGenerateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE740B71BEBF2B0001B2820 /* Build configuration list for PBXNativeTarget "GifGenerateUITests" */;
+			buildPhases = (
+				EDE740A41BEBF2B0001B2820 /* Sources */,
+				EDE740A51BEBF2B0001B2820 /* Frameworks */,
+				EDE740A61BEBF2B0001B2820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE740AA1BEBF2B0001B2820 /* PBXTargetDependency */,
+			);
+			name = GifGenerateUITests;
+			productName = GifGenerateUITests;
+			productReference = EDE740A81BEBF2B0001B2820 /* GifGenerateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE740811BEBF2B0001B2820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Promeet Mansata";
+				TargetAttributes = {
+					EDE740881BEBF2B0001B2820 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = EU5K2AHHLW;
+					};
+					EDE7409C1BEBF2B0001B2820 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = EU5K2AHHLW;
+						TestTargetID = EDE740881BEBF2B0001B2820;
+					};
+					EDE740A71BEBF2B0001B2820 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = EU5K2AHHLW;
+						TestTargetID = EDE740881BEBF2B0001B2820;
+					};
+				};
+			};
+			buildConfigurationList = EDE740841BEBF2B0001B2820 /* Build configuration list for PBXProject "GifGenerate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDE740801BEBF2B0001B2820;
+			productRefGroup = EDE7408A1BEBF2B0001B2820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE740881BEBF2B0001B2820 /* GifGenerate */,
+				EDE7409C1BEBF2B0001B2820 /* GifGenerateTests */,
+				EDE740A71BEBF2B0001B2820 /* GifGenerateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDE740871BEBF2B0001B2820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE740971BEBF2B0001B2820 /* LaunchScreen.storyboard in Resources */,
+				EDE740941BEBF2B0001B2820 /* Assets.xcassets in Resources */,
+				EDE740921BEBF2B0001B2820 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE7409B1BEBF2B0001B2820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE740A61BEBF2B0001B2820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDE740851BEBF2B0001B2820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE7408F1BEBF2B0001B2820 /* ViewController.swift in Sources */,
+				EDE7408D1BEBF2B0001B2820 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE740991BEBF2B0001B2820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE740A21BEBF2B0001B2820 /* GifGenerateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE740A41BEBF2B0001B2820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE740AD1BEBF2B0001B2820 /* GifGenerateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDE7409F1BEBF2B0001B2820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE740881BEBF2B0001B2820 /* GifGenerate */;
+			targetProxy = EDE7409E1BEBF2B0001B2820 /* PBXContainerItemProxy */;
+		};
+		EDE740AA1BEBF2B0001B2820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE740881BEBF2B0001B2820 /* GifGenerate */;
+			targetProxy = EDE740A91BEBF2B0001B2820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDE740901BEBF2B0001B2820 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE740911BEBF2B0001B2820 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDE740951BEBF2B0001B2820 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE740961BEBF2B0001B2820 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDE740AF1BEBF2B0001B2820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDE740B01BEBF2B0001B2820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDE740B21BEBF2B0001B2820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GifGenerate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmansata.GifGenerate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDE740B31BEBF2B0001B2820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GifGenerate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmansata.GifGenerate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDE740B51BEBF2B0001B2820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GifGenerateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmansata.GifGenerateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifGenerate.app/GifGenerate";
+			};
+			name = Debug;
+		};
+		EDE740B61BEBF2B0001B2820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GifGenerateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmansata.GifGenerateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifGenerate.app/GifGenerate";
+			};
+			name = Release;
+		};
+		EDE740B81BEBF2B0001B2820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GifGenerateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmansata.GifGenerateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GifGenerate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EDE740B91BEBF2B0001B2820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GifGenerateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmansata.GifGenerateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GifGenerate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDE740841BEBF2B0001B2820 /* Build configuration list for PBXProject "GifGenerate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE740AF1BEBF2B0001B2820 /* Debug */,
+				EDE740B01BEBF2B0001B2820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE740B11BEBF2B0001B2820 /* Build configuration list for PBXNativeTarget "GifGenerate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE740B21BEBF2B0001B2820 /* Debug */,
+				EDE740B31BEBF2B0001B2820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDE740B41BEBF2B0001B2820 /* Build configuration list for PBXNativeTarget "GifGenerateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE740B51BEBF2B0001B2820 /* Debug */,
+				EDE740B61BEBF2B0001B2820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDE740B71BEBF2B0001B2820 /* Build configuration list for PBXNativeTarget "GifGenerateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE740B81BEBF2B0001B2820 /* Debug */,
+				EDE740B91BEBF2B0001B2820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDE740811BEBF2B0001B2820 /* Project object */;
+}
