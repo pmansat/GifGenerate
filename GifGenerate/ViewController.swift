@@ -34,16 +34,19 @@ class ViewController: UIViewController {
     
     
     @IBAction func onEditingChanged(sender: AnyObject) {
-       let imageView2 = UIImageView()
-//            imageView.image = UIImage(named: "incorrect.png")
-//            imageView.frame = CGRect(x: CGFloat(i) * (imageView.image!.size.width + 10), y: 100, width: imageView.image!.size.width, height: imageView.image!.size.height)
-           view.addSubview(imageView2)
-           
+        
   }
 
 
     @IBAction func OnButtonPress(sender: AnyObject) {
         EmojiCount.endEditing(true)
+        
+//        let imageView = UIImageView()
+//        for view in imageView {
+//           view.removeFromSuperview()
+//        }
+
+    
         
         var ecount1 = NSString(string: EmojiCount.text!).doubleValue
         var ecount = integer_t(ecount1-1)
